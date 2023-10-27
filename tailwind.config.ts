@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'black': '#121212',
+        'primary': '#4D77FF',
+        'grey': '#696969',
+      },
+      boxShadow: {
+        'soft': '0px 8px 24px rgba(149, 157, 165, 0.2)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
